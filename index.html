@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Aury</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bulma/bulma.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+</head>
+<body>
+
+    <div class="head"> 
+        <h1>Viajes Aury</h1>
+       
+    </div>
+    
+
+        <main >
+
+        <div class="main-container">
+
+            <div class="container">
+                <h1>Rutas Viajes Aury</h1>
+                <input type="text" placeholder="Destinos" id="destinos">
+                <button type="button" id="AgregarDestino">Agregar</button>
+        
+                <input type="text" placeholder="Terminal" id="terminalInicio">
+                <input type="text" placeholder="Destino" id="destino">
+                <input type="text" placeholder="Distacia" id="peso">
+                <button type="button" id="AgregarRutaB">Agregar ruta</button>
+            </div>
+
+            <div class="container2">
+
+                <button type="button" id="buttonProfundidad">Ver mapa en recorrido de profundidad</button>
+                <button type="button" id="buttonAnchura">Ver mapa en recorrido de anchura</button>
+                <div id="MostrarRecorridos"></div>
+                <div id="MostrarRecorridosAn"></div>
+
+                <p>Buscar el camino mas corto de una terminal a otra terminal</p>
+                <input type="text" id="verticeInicio" placeholder="Terminal">
+                
+                <button type="button" id="rutaMasCorta">Buscar</button>
+                <div id="mostrarRutaCorta"></div>
+
+            </div>
+            
+
+        </div>
+
+     
+       
+ 
+   </main>
+           
+    
+    <script type="module" src="./src/controllers/script.mjs"></script>
+</body>
+</html>
