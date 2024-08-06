@@ -75,32 +75,6 @@ document.addEventListener('DOMContentLoaded',()=> {
 
 
 });
-/**
- * btnDijstra.addEventListener("click", ()  => {
-   
-    let origen =document.getElementById("verticeInicio").value.trim();
-    let destino = document.getElementById("verticeFinal").value.trim();
-
-    const shortestDistance = graph.dijkstra(origen, destino);
-
-    if (shortestDistance === 1000000) {
-        Swal.fire({
-            icon: "error",
-            title: "Oops...",
-            text: "No se encontro ningun camino",
-        });
-    } else {
-        imprimir3.innerHTML = ` La ruta mas corta es ${shortestDistance} ` ;
-        Swal.fire({
-            icon: "info",
-            text: "Ya puede ver la ruta mas corta"
-            
-        })
-    }
-
-});
- */
-
 
 let imprimirMensaje = (d) =>{
   
