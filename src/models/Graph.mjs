@@ -1,6 +1,6 @@
 import LinkedList from "./LinkedList.mjs";
 
-export default class Graph {
+export default class Graph{
   #listaAdyacencia = [];
   #matrizAdyacencia = [];
   #map = new Map();

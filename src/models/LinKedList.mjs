@@ -1,6 +1,7 @@
+
 import Node from "./Node.mjs";
 
-export default class LinKedList {
+export default class LinkedList {
     #head;
     #count;
 
